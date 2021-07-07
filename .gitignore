@@ -1,0 +1,10 @@
+QA.zip
+BioASQ/
+lightning_logs/
+checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+dataset.ipynb
+extract_data.py
+cluster.ipynb
+temp.py
