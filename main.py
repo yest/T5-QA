@@ -1,25 +1,12 @@
 from argparse import ArgumentParser
-import glob
-import os
-import json
-import time
-import logging
-import random
-import re
-from itertools import chain
-from string import punctuation
 
 import pandas as pd
 import numpy as np
 import torch
-from pathlib import Path
 from torch.utils.data import Dataset, DataLoader
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning import Trainer
-from sklearn.model_selection import train_test_split
-from termcolor import colored, cprint
-import textwrap
 from bioqamodel import BioQAModel
 from bioqadatamodule import BioQADataModule
 

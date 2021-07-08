@@ -1,0 +1,3 @@
+pytorch==1.8.1
+transformers==4.1.1
+pyTorch_lightning==1.3.0
